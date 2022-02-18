@@ -65,7 +65,7 @@ var drawPath = 0; // 当前第几步
                 setTimeout(function () {
                     eval("drawPath" + drawPath + "()")
                     drawNextPath()
-                }, 10)
+                }, 15)
             }
         }
 
